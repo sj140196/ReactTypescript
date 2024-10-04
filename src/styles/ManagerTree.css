@@ -1,0 +1,27 @@
+/* src/components/ManagerTree.css */
+
+.tree-level {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .tree-level h3 {
+    margin-right: 20px;
+  }
+  
+  .tree-level ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .tree-level li {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #ac2d2d;
+    border-radius: 5px;
+  }
+  
